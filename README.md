@@ -1,4 +1,7 @@
 phphard
 =======
 
-phphard is a PHP source code static analyzer. Its aim is to strong type PHP programs and detect bugs at compile time.
+phphard is a PHP source code static analyzer. Its aim is to strong type PHP
+programs and detect bugs at compile time.
+
+Pretty printing of PHP programs is also supported.

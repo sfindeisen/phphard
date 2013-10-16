@@ -1,0 +1,22 @@
+phphard is a PHP source code static analyzer. Its aim is to strong type PHP
+programs and detect bugs at compile time.
+
+Pretty printing of PHP programs is also supported.
+
+This is a work in progress and currently (2013-10-16) only a small subset
+of PHP is supported.
+
+How to build
+============
+
+ocamlbuild -I src phphard.native
+
+How to run
+==========
+
+cat ./test/test3.php | ./phphard.native
+
+How to clean
+============
+
+ocamlbuild -clean
